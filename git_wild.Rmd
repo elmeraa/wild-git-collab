@@ -35,9 +35,16 @@ ggplot(data = diamonds, aes(x = color, y = carat) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+## Allison's new plot
+ggplot(data = starwars, aes(x = mass, y = height)) +
+  geom_point() +
+  theme_minimal() +
+  labs(title = "Star wars characters")
+
 ## Elmera's new graph
 ggplot(data = diamonds, aes( x = price, y = depth)) +
   geom_point()
+
 ```
 
 ```{r break-it-2}
