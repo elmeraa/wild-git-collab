@@ -48,9 +48,15 @@ ggplot(data = diamonds, aes( x = price, y = depth)) +
 ```
 
 ```{r break-it-2}
+
+## Elmera's even cooler new graph
+ggplot(data = diamonds, aes( x = price, y = depth)) +
+  geom_boxplot()
+
 # Just a bunch
 # Of random
 stuff <- 1000
+
 
 ggplot(data = mtcars, aes(x = mpg, y = qsec))+
   geom_point() +
