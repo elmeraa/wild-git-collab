@@ -48,7 +48,13 @@ ggplot(data = diamonds, aes( x = price, y = depth)) +
 ```
 
 ```{r break-it-2}
+# Just a bunch
+# Of random
+stuff <- 1000
 
+ggplot(data = mtcars, aes(x = mpg, y = qsec))+
+  geom_point() +
+  labs(title = "Good job Elmera!")
 ```
 
 ## END Discussion 3
