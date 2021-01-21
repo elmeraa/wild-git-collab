@@ -35,9 +35,10 @@ ggplot(data = diamonds, aes(x = color, y = carat) +
 ## PART B: Make problems
 
 ```{r break-it-1}
-ggplot(data = diamonds, aes(x = depth, y = carat)) +
+ggplot(data = starwars, aes(x = mass, y = height)) +
   geom_point() +
-  theme_void()
+  theme_minimal() +
+  labs(title = "Star wars characters")
 ```
 
 ```{r break-it-2}
